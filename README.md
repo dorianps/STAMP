@@ -13,6 +13,7 @@ This is by no means a finished product. I am making the scripts public as an exa
 * `IITcomputeConnectomes.R`: compute virtual lesioned connectomes for each patient
 * `STAMPboxplots4paper_gray.R`: Creates SMAP plots in black and white, for a journal that (in 2017) still doesn't accept online figures with colors.
 * `strokeRest.R`: This is a fully functional function to run resting state analysis on stroke data. The inside documentation is not great yet, but the function can run everything from preprocessing to the production of multiple connectomes from different atlasses. It eliminates the lesioned area when computing nuisance variables during preprocessing.
+* `makeGraph.Stroke.R`: a complete function that takes a connectome matrix and provides graph theory measures used in this study. Relies on the igraph package.
 * `pennStrokeRest.R/sh`: Files used to compute resting state connectomes from Penn patients. One is a simple R file, the other is the shell script used to call the R file in a cluster environment. These are used to run things in a computing cluster.
 * `rfeCV.R`: Script used to compute full-split cross validation.
 * `restAnalysis.R`: Some code I used to understand the potential of resting state or dti data.
