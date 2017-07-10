@@ -1,0 +1,1 @@
+R CMD BATCH --no-save --no-restore '--args mr="'${restsub}'" date="'${datesub}'"' /data/jag/dpustina/Code/APHASIA/pennStrokeRest.R /data/jag/dpustina/APHASIA/STROKE/processing/RESTnoGLOB/Rout_${restsub}_${datesub}.log

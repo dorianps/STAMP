@@ -1,0 +1,1 @@
+R CMD BATCH --no-save --no-restore '--args DATAfile="'${DATAfile}'"' /data/jag/dpustina/Code/APHASIA/selectRFE.singlejob.R /dev/null
