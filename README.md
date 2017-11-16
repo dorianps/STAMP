@@ -22,3 +22,5 @@ This is by no means a finished product. I am making the scripts public as an exa
 * `selectRFE.singlejob.R/sh`: Main script that runs a single recursive feature elimination in the cluster. The concept was to prepare a small Rdata file with all what was needed for RFE, than call this script. It would load the Rdata file, run RFE and save the results on the same file. This way, all I need to keep track is Rdata filenames, instead of the data themselves.
 * `selectVarsRF*`: a bunch of files probably similar to selectRFE, don't remember exactly at what stage did I use these scripts.
 
+#### *[NEW]* Tractogram file
+The tractogram obtained from the IIT atlas is available for [download](https://goo.gl/N7QEgT) (5Gb). The file is in MRtrix format and contains 10 million streamlines after filtering an anatomically contrained tractogram of 70 million streamlines. See the paper for more details.
